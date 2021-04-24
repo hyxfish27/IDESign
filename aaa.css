@@ -17,24 +17,26 @@ body {
     margin: auto;
 }
 
-.box1 {
-    min-height: 80vh;
-    
+.section {
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #fff;
     background-color: darkcyan;
     padding: 20px;
-    
     border-top: 6px lightcyan dotted;
     border-right: 6px lightsalmon solid;
     border-bottom: 8px lightgreen dashed;
     border-left: 6px yellowgreen ridge;
-
-    margin-top: 7vh;
 }
 
 .box1 h1 {
@@ -43,4 +45,11 @@ body {
     text-transform: uppercase;
     letter-spacing: -0.18em;
     word-spacing: 0.5em;
+}
+
+.box2 {
+    border: 5px dotted darkviolet;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 35px;
 }
