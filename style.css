@@ -13,6 +13,7 @@ body {
 
 .image-div {
     width: 500px;
+    display: block;
 }
 
 .image-div img {
